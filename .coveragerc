@@ -1,0 +1,11 @@
+[run]
+branch = True
+source = complete_metadata
+
+[report]
+omit = */tests/*
+exclude_lines =
+    pragma: no cover
+
+[html]
+directory = coverage
